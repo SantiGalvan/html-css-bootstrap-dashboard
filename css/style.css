@@ -19,9 +19,24 @@
     display: flex;
 }
 
-/*? Header */
+/** Header */
 header {
     height: 100px;
     flex-shrink: 0;
     background-color: goldenrod;
+}
+
+/*! Sidebar */
+#sidebar {
+    flex-basis: 80px;
+    background-color: royalblue;
+    flex-shrink: 0;
+    height: calc(100vh - 100px);
+}
+
+
+/*? Main */
+main {
+    flex-grow: 1;
+    overflow: auto;
 }
