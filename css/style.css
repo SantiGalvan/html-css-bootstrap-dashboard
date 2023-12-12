@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+/* Regole per vedere le col */
+.col {
+    border: 2px solid brown;
+}
+
 /* General */
 .wrapper {
     display: flex;
