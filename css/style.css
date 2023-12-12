@@ -1,0 +1,27 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.content {
+    flex-grow: 1;
+    overflow: auto;
+    background-color: lightcyan;
+    display: flex;
+}
+
+/*? Header */
+header {
+    height: 100px;
+    flex-shrink: 0;
+    background-color: goldenrod;
+}
