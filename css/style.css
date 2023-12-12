@@ -54,6 +54,5 @@ main {
 
 /* Section Graphs */
 #graphs {
-    height: calc(100vh - 180px);
-    background-color: chocolate;
+    background-color: #f8f9fa;
 }
