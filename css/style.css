@@ -40,3 +40,15 @@ main {
     flex-grow: 1;
     overflow: auto;
 }
+
+/* Jumbotron */
+#jumbotron {
+    min-height: 100px;
+    background-color: yellowgreen;
+}
+
+/* Section Graphs */
+#graphs {
+    height: calc(100vh - 200px);
+    background-color: chocolate;
+}
