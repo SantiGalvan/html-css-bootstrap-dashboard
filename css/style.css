@@ -24,7 +24,7 @@
 }
 
 /** Header */
-header {
+.header-top {
     height: 80px;
     flex-shrink: 0;
     background-color: goldenrod;
@@ -45,9 +45,8 @@ main {
     overflow: auto;
 }
 
-/* Jumbotron */
-#jumbotron {
-    min-height: 100px;
+/* Main Header */
+.main-header {
     background-color: #1b72e8;
 }
 
