@@ -96,3 +96,8 @@ main {
 #graphs {
     background-color: #f8f9fa;
 }
+
+.table-img {
+    width: 30px;
+    border-radius: 50%;
+}
