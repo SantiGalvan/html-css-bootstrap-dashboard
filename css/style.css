@@ -23,11 +23,41 @@
     display: flex;
 }
 
+ul {
+    list-style-type: none;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
 /** Header */
 .header-top {
     height: 80px;
     flex-shrink: 0;
-    background-color: goldenrod;
+    background-color: #fff;
+}
+
+.cs-img {
+    width: 50px;
+}
+
+.input-group span {
+    border-right: 0;
+    background-color: #e5e5e5;
+    padding: 6px 8px;
+}
+
+.input-group input {
+    border-left: 0;
+    background-color: #e5e5e5;
+    padding-left: 0;
+}
+
+.fa-bell {
+    color: #ff8f00;
 }
 
 /*! Sidebar */
