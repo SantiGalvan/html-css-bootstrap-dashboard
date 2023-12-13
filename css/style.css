@@ -36,7 +36,6 @@ header {
     background-image: url(/img/sidebar-bg.png);
     background-color: #051e34;
     flex-shrink: 0;
-    height: calc(100vh - 80px);
 }
 
 
