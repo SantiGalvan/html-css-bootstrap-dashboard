@@ -79,6 +79,18 @@ a {
     color: #fff;
 }
 
+.cs-bc {
+    background-color: transparent;
+    height: 40px;
+    width: 140px;
+    display: block;
+    padding: 0 10px;
+}
+
+.cs-bc:hover {
+    background-color: gray;
+}
+
 /*? Main */
 main {
     flex-grow: 1;
