@@ -106,15 +106,75 @@
                                             data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
                                             aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
 
+                                        <!-- Offcanvas -->
                                         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
                                             aria-labelledby="offcanvasRightLabel">
                                             <div class="offcanvas-header">
-                                                <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right
+                                                <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo
+                                                    studente
                                                 </h5>
                                                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
                                                     aria-label="Close"></button>
                                             </div>
                                             <div class="offcanvas-body">
+                                                <form>
+                                                    <div class="cs-form-personal-data d-flex gap-3">
+                                                        <div class="mb-3 cs-name">
+                                                            <label for="name" class="form-label">Nome</label>
+                                                            <input type="text" class="form-control" id="name">
+                                                        </div>
+                                                        <div class="mb-3 cs-lastname">
+                                                            <label for="lastname" class="form-label">Cognome</label>
+                                                            <input type="text" class="form-control" id="lastname">
+                                                        </div>
+                                                    </div>
+                                                    <div class="cs-form-contacts d-flex gap-3">
+                                                        <div class="mb-3 cs-email">
+                                                            <label for="email" class="form-label">Email</label>
+                                                            <input type="email" class="form-control" id="email">
+                                                        </div>
+                                                        <div class="mb-3 cs-password">
+                                                            <label for="password" class="form-label">Password</label>
+                                                            <input type="password" class="form-control" id="password">
+                                                        </div>
+                                                    </div>
+                                                    <div class="mb-3 cs-address">
+                                                        <label for="address" class="form-label">Indirizzo</label>
+                                                        <input type="text" class="form-control" id="address">
+                                                    </div>
+                                                    <div class="cs-form-contacts d-flex gap-3">
+                                                        <div class="mb-3 cs-city">
+                                                            <label for="city" class="form-label">Città</label>
+                                                            <input type="text" class="form-control" id="city">
+                                                        </div>
+                                                        <div class="mb-3 cs-state">
+                                                            <label for="state" class="form-label">Stato</label>
+                                                            <select class="form-select" id="state">
+                                                                <option value="">Scegli...</option>
+                                                                <option value="ita">Italia</option>
+                                                                <option value="fra">Francia</option>
+                                                                <option value="esp">Spagna</option>
+                                                                <option value="por">Portogallo</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="mb-3 cs-cap">
+                                                            <label for="cap" class="form-label">CAP</label>
+                                                            <input type="text" class="form-control" id="cap">
+                                                        </div>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="formFile" class="form-label">Foto</label>
+                                                        <input class="form-control" type="file" id="formFile">
+                                                    </div>
+                                                    <div class="mb-3 form-check">
+                                                        <input type="checkbox" class="form-check-input"
+                                                            id="exampleCheck1" required>
+                                                        <label class="form-check-label" for="exampleCheck1">Seleziona
+                                                            per proseguire</label>
+                                                    </div>
+                                                    <button type="submit" class="btn btn-primary">Salva</button>
+                                                    <button type="submit" class="btn btn-warning">Svuota</button>
+                                                </form>
                                             </div>
                                         </div>
                                     </div>
