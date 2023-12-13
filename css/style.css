@@ -39,6 +39,10 @@ a {
     width: 50px;
 }
 
+.cs-lg-img {
+    width: 160px;
+}
+
 .input-group span {
     border-right: 0;
     background-color: #e5e5e5;
@@ -67,6 +71,10 @@ a {
     justify-content: space-between;
 }
 
+#sidebar ul {
+    text-align: center;
+}
+
 #sidebar i {
     color: #fff;
 }
@@ -92,6 +100,10 @@ main {
     font-size: 14px;
 }
 
+li a {
+    color: black;
+}
+
 /* Section Graphs */
 #graphs {
     background-color: #f8f9fa;
@@ -105,4 +117,15 @@ main {
 .card-body a {
     text-decoration: underline;
     font-weight: 500;
+}
+
+@media screen and (min-width: 992px) {
+    #sidebar {
+        flex-basis: 200px;
+    }
+
+    #sidebar ul {
+        text-align: left;
+        padding-left: 20px;
+    }
 }
